@@ -213,6 +213,9 @@ data_for_analysis_v2b$lowerbounddeltap = ifelse(data_for_analysis_v2b$deltap > 0
 data_for_analysis_v2b$deltap[data_for_analysis_v2b$deltap < 0] = 0.0000001
 data_for_analysis_v2b$logdeltaP = log(data_for_analysis_v2b$deltap)
 
+#center predictors
+data_for_analysis_v2b$PlausibilityValue = data_for_analysis_v2b$PlausibilityValue - mean(data_for_analysis_v2b$PlausibilityValue)
+data_for_analysis_v2b$logoddsratio = data_for_analysis_v2b$logoddsratio - mean(data_for_analysis_v2b$logoddsratio)
 
 ##################### loading data
 #write_csv(data_for_analysis_v2b, "D:/PhD Stuff/Linguistics Stuff/Staub Replication/Maze Results/Exp5/data for analysis.csv")
