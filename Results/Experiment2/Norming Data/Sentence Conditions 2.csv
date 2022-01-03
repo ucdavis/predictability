@@ -1,0 +1,213 @@
+Sentences,Number,Condition,Whose
+The hardest part about driving my car is the steering...,3,V1N1,Ours
+The hardest part about driving my car is the steering wheel...,3,V1N1N2,Ours
+The hardest part about painting my car is the steering...,3,V2N1,Ours
+The hardest part about painting my car is the steering wheel...,3,V2N1N2,Ours
+Kimmy panicked when she realized that she left the books in the locker...,4,V1N1,Ours
+Kimmy panicked when she realized that she left the books in the locker room...,4,V1N1N2,Ours
+Kimmy panicked when she realized that she left the faucet running in the locker...,4,V2N1,Ours
+Kimmy panicked when she realized that she left the faucet running in the locker room...,4,V2N1N2,Ours
+When I was a kid I hated dining...,6,V1N1,Ours
+When I was a kid I hated dining rooms...,6,V1N1N2,Ours
+When I was a kid I hated the color of dining...,6,V2N1,Ours
+When I was a kid I hated the color of dining rooms...,6,V2N1N2,Ours
+Jimmy picked up the peanut...,7,V1N1,Ours
+Jimmy picked up the peanut butter...,7,V1N1N2,Ours
+Jimmy spread out the peanut...,7,V2N1,Ours
+Jimmy spread out the peanut butter...,7,V2N1N2,Ours
+Jamie shredded the mailing...,8,V1N1,Ours
+Jamie shredded the mailing list...,8,V1N1N2,Ours
+Jamie emailed the mailing...,8,V2N1,Ours
+Jamie emailed the mailing list...,8,V2N1N2,Ours
+I read an article about the insider...,9,V1N1,Ours
+I read an article about the insider trading...,9,V1N1N2,Ours
+I read that John was arrested for insider...,9,V2N1,Ours
+I read that John was arrested for insider trading...,9,V2N1N2,Ours
+The manager found the dairy...,12,V1N1,Ours
+The manager found the dairy products...,12,V1N1N2,Ours
+The manager logged the dairy...,12,V2N1,Ours
+The manager logged the dairy products...,12,V2N1N2,Ours
+The social worker visits alcoholics...,13,V1N1,Ours
+The social worker visits alcoholics anonymous...,13,V1N1N2,Ours
+The social worker founded alcoholics...,13,V2N1,Ours
+The social worker founded alcoholics anonymous...,13,V2N1N2,Ours
+The large company relies on its purchasing...,14,V1N1,Ours
+The large company relies on its purchasing power...,14,V1N1N2,Ours
+The large company has purchasing...,14,V2N1,Ours
+The large company has purchasing power...,14,V2N1N2,Ours
+Timothy absolutely loves talking about baking...,16,V1N1,Ours
+Timothy absolutely loves talking about baking sheets...,16,V1N1N2,Ours
+Timothy absolutely loves buying baking...,16,V2N1,Ours
+Timothy absolutely loves buying baking sheets...,16,V2N1N2,Ours
+My mom loves baking...,18,V1N1,Ours
+My mom loves baking dishes...,18,V1N1N2,Ours
+My mom received baking...,18,V2N1,Ours
+My mom received baking dishes...,18,V2N1N2,Ours
+One of my favorite feelings is when I eat ice...,19,V1N1,Ours
+One of my favorite feelings is when I eat ice cream...,19,V1N1N2,Ours
+One of my favorite feelings is when I smell ice...,19,V2N1,Ours
+One of my favorite feelings is when I smell ice cream...,19,V2N1N2,Ours
+"Despite the storm, the winter advisory...",20,V1N1,Ours
+"Despite the storm, the winter advisory committee...",20,V1N1N2,Ours
+"Despite the storm, the experienced advisory...",20,V2N1,Ours
+"Despite the storm, the experienced advisory committee...",20,V2N1N2,Ours
+I was really worried after I read about the wastewater...,22,V1N1,Ours
+I was really worried after I read about the wastewater treatment...,22,V1N1N2,Ours
+I was really worried after I administered the wastewater...,22,V2N1,Ours
+I was really worried after I administered the wastewater treatment...,22,V2N1N2,Ours
+"Due to her difficulty of breathing, Jamie was really worried about her lung...",23,V1N1,Ours
+"Due to her difficulty of breathing, Jamie was really worried about her lung cancer...",23,V1N1N2,Ours
+"Due to her difficulty of breathing, Jamie was really worried about having lung...",23,V2N1,Ours
+"Due to her difficulty of breathing, Jamie was really worried about having lung cancer...",23,V2N1N2,Ours
+Sally said she found that new graduate...,24,V1N1,Ours
+Sally said she found that new graduate school...,24,V1N1N2,Ours
+Sally said she is attending that new graduate...,24,V2N1,Ours
+Sally said she is attending that new graduate school...,24,V2N1N2,Ours
+"When I was a kid, despite my mom's disapproval I really wanted to buy a snack...",25,V1N1,Ours
+"When I was a kid, despite my mom's disapproval I really wanted to buy a snack bar...",25,V1N1N2,Ours
+"When I was a kid, despite my mom's disapproval I really wanted to go to a snack...",25,V2N1,Ours
+"When I was a kid, despite my mom's disapproval I really wanted to go to a snack bar...",25,V2N1N2,Ours
+Norwich was once rich due to a rare textile...,26,V1N1,Ours
+Norwich was once rich due to a rare textile industry...,26,V1N1N2,Ours
+Norwich was once rich thanks to the textile...,26,V2N1,Ours
+Norwich was once rich thanks to the textile industry...,26,V2N1N2,Ours
+As a kid Benny was known for his hyperactivity...,27,V1N1,Ours
+As a kid Benny was known for his hyperactivity disorder...,27,V1N1N2,Ours
+As a kid Benny was diagnosed with a hyperactivity...,27,V2N1,Ours
+As a kid Benny was diagnosed with a hyperactivity disorder...,27,V2N1N2,Ours
+The mechanic scoffed at the idea of putting diesel...,28,V1N1,Ours
+The mechanic scoffed at the idea of putting diesel engines...,28,V1N1N2,Ours
+The mechanic scoffed at the idea of building diesel...,28,V2N1,Ours
+The mechanic scoffed at the idea of building diesel engines...,28,V2N1N2,Ours
+I heard that Billy stumbled upon a web...,29,V1N1,Ours
+I heard that Billy stumbled upon a web site...,29,V1N1N2,Ours
+I heard that Billy read a web...,29,V2N1,Ours
+I heard that Billy read a web site...,29,V2N1N2,Ours
+The school's outstanding graduation...,30,V1N1,Ours
+The school's outstanding graduation rates...,30,V1N1N2,Ours
+The school's high graduation...,30,V2N1,Ours
+The school's high graduation rates...,30,V2N1N2,Ours
+The worst part about using the bathroom in public is that they never flush the toilet...,31,V1N1,Ours
+The worst part about using the bathroom in public is that they never flush the toilet paper...,31,V1N1N2,Ours
+The worst part about using the bathroom in public is that they always run out of the toilet...,31,V2N1,Ours
+The worst part about using the bathroom in public is that they always run out of the toilet paper...,31,V2N1N2,Ours
+The doctor told me to pick up my prescription...,32,V1N1,Ours
+The doctor told me to pick up my prescription drugs...,32,V1N1N2,Ours
+The doctor told me to stop my recreational use of prescription...,32,V2N1,Ours
+The doctor told me to stop my recreational use of prescription drugs...,32,V2N1N2,Ours
+Evan said that he shouldn't have thrown out all his junk...,36,V1N1,Ours
+Evan said that he shouldn't have thrown out all his junk food...,36,V1N1N2,Ours
+Evan said that he shouldn't have eaten all his junk...,36,V2N1,Ours
+Evan said that he shouldn't have eaten all his junk food...,36,V2N1N2,Ours
+Jane looked forward to going to the concert...,37,V1N1,Staubs
+Jane looked forward to going to the concert hall...,37,V1N1N2,Staubs
+Jane looked forward to visiting the concert...,37,V2N1,Staubs
+Jane looked forward to visiting the concert hall...,37,V2N1N2,Staubs
+The teacher looked over the nursery...,39,V1N1,Staubs
+The teacher looked over the nursery rhyme...,39,V1N1N2,Staubs
+The teacher read over the nursery...,39,V2N1,Staubs
+The teacher read over the nursery rhyme...,39,V2N1N2,Staubs
+The new taxi driver needed the license...,40,V1N1,Staubs
+The new taxi driver needed the license plate...,40,V1N1N2,Staubs
+The new taxi driver installed the license...,40,V2N1,Staubs
+The new taxi driver installed the license plate...,40,V2N1N2,Staubs
+Sam went to the funeral...,41,V1N1,Staubs
+Sam went to the funeral home...,41,V1N1N2,Staubs
+Sam phoned the funeral...,41,V2N1,Staubs
+Sam phoned the funeral home...,41,V2N1N2,Staubs
+Barbara went over to her station...,47,V1N1,Staubs
+Barbara went over to her station wagon...,47,V1N1N2,Staubs
+Barbara went over in her station...,47,V2N1,Staubs
+Barbara went over in her station wagon...,47,V2N1N2,Staubs
+Cindy smelled the garbage...,48,V1N1,Staubs
+Cindy smelled the garbage truck...,48,V1N1N2,Staubs
+Cindy heard the garbage...,48,V2N1,Staubs
+Cindy heard the garbage truck...,48,V2N1N2,Staubs
+Nora was held up by the traffic...,49,V1N1,Staubs
+Nora was held up by the traffic light...,49,V1N1N2,Staubs
+Nora was slowed at the traffic...,49,V2N1,Staubs
+Nora was slowed at the traffic light...,49,V2N1N2,Staubs
+Jane carefully examined the package...,51,V1N1,Staubs
+Jane carefully examined the package deal...,51,V1N1N2,Staubs
+Jane listened carefully to the package...,51,V2N1,Staubs
+Jane listened carefully to the package deal...,51,V2N1N2,Staubs
+The kids decided to move the pillow...,53,V1N1,Staubs
+The kids decided to move the pillow fight...,53,V1N1N2,Staubs
+The kids started having the pillow...,53,V2N1,Staubs
+The kids started having the pillow fight...,53,V2N1N2,Staubs
+The new principal visited the cafeteria...,54,V1N1,Staubs
+The new principal visited the cafeteria manager...,54,V1N1N2,Staubs
+The new principal talked to the cafeteria...,54,V2N1,Staubs
+The new principal talked to the cafeteria manager...,54,V2N1N2,Staubs
+Mary was reassured about the safety...,55,V1N1,Staubs
+Mary was reassured about the safety belt...,55,V1N1N2,Staubs
+Mary bought the safety...,55,V2N1,Staubs
+Mary bought the safety belt...,55,V2N1N2,Staubs
+Arnie enjoyed the season...,56,V1N1,Staubs
+Arnie enjoyed the season tickets...,56,V1N1N2,Staubs
+Arnie bought the season...,56,V2N1,Staubs
+Arnie bought the season tickets...,56,V2N1N2,Staubs
+The athlete bandaged his elbow...,59,V1N1,Staubs
+The athlete bandaged his elbow injury...,59,V1N1N2,Staubs
+The athlete suffered his elbow...,59,V2N1,Staubs
+The athlete suffered his elbow injury...,59,V2N1N2,Staubs
+Gordon was annoyed by the service...,60,V1N1,Staubs
+Gordon was annoyed by the service charges...,60,V1N1N2,Staubs
+Gordon calculated the service...,60,V2N1,Staubs
+Gordon calculated the service charges...,60,V2N1N2,Staubs
+Larry dropped the pencil...,62,V1N1,Staubs
+Larry dropped the pencil shavings...,62,V1N1N2,Staubs
+Larry emptied the pencil...,62,V2N1,Staubs
+Larry emptied the pencil shavings...,62,V2N1N2,Staubs
+George spent time at the library...,63,V1N1,Staubs
+George spent time at the library table...,63,V1N1N2,Staubs
+George cleaned off the library...,63,V2N1,Staubs
+George cleaned off the library table...,63,V2N1N2,Staubs
+The dealer polished the cabinet...,64,V1N1,Staubs
+The dealer polished the cabinet drawers...,64,V1N1N2,Staubs
+The dealer counted the cabinet...,64,V2N1,Staubs
+The dealer counted the cabinet drawers...,64,V2N1N2,Staubs
+"It required a great effort, but the weight...",65,V1N1,Staubs
+"It required a great effort, but the weight lifter...",65,V1N1N2,Staubs
+"It was a great event, but the weight...",65,V2N1,Staubs
+"It was a great event, but the weight lifter...",65,V2N1N2,Staubs
+The teacher was unable to understand the problem...,66,V1N1,Staubs
+The teacher was unable to understand the problem child...,66,V1N1N2,Staubs
+The teacher was unable to scold the problem...,66,V2N1,Staubs
+The teacher was unable to scold the problem child...,66,V2N1N2,Staubs
+The visitors dirtied the bathroom...,67,V1N1,Staubs
+The visitors dirtied the bathroom towels...,67,V1N1N2,Staubs
+The visitors folded the bathroom...,67,V2N1,Staubs
+The visitors folded the bathroom towels...,67,V2N1N2,Staubs
+The maid caught the elevator...,69,V1N1,Staubs
+The maid caught the elevator mechanic...,69,V1N1N2,Staubs
+The maid scolded the elevator...,69,V2N1,Staubs
+The maid scolded the elevator mechanic...,69,V2N1N2,Staubs
+The contractor admired the kitchen...,71,V1N1,Staubs
+The contractor admired the kitchen fixtures...,71,V1N1N2,Staubs
+The contractor ordered the kitchen...,71,V2N1,Staubs
+The contractor ordered the kitchen fixtures...,71,V2N1N2,Staubs
+Ricardo painted the ceiling...,72,V1N1,Staubs
+Ricardo painted the ceiling supports...,72,V1N1N2,Staubs
+Ricardo leaned against the ceiling...,72,V2N1,Staubs
+Ricardo leaned against the ceiling supports...,72,V2N1N2,Staubs
+Lucy walked by the school...,73,V1N1,Staubs
+Lucy walked by the school janitor...,73,V1N1N2,Staubs
+Lucy met the school...,73,V2N1,Staubs
+Lucy met the school janitor...,73,V2N1N2,Staubs
+The children loved the elephant...,75,V1N1,Staubs
+The children loved the elephant shows...,75,V1N1N2,Staubs
+The children attended the elephant...,75,V2N1,Staubs
+The children attended the elephant shows...,75,V2N1N2,Staubs
+Kim heard about the party...,76,V1N1,Staubs
+Kim heard about the party outfit...,76,V1N1N2,Staubs
+Kim modeled the party...,76,V2N1,Staubs
+Kim modeled the party outfit...,76,V2N1N2,Staubs
+Veronica heard the music...,77,V1N1,Staubs
+Veronica heard the music salesman...,77,V1N1N2,Staubs
+Veronica bumped into the music...,77,V2N1,Staubs
+Veronica bumped into the music salesman...,77,V2N1N2,Staubs
+The astronaut landed on the surface...,78,V1N1,Staubs
+The astronaut landed on the surface crater...,78,V1N1N2,Staubs
+The astronaut dropped into the surface...,78,V2N1,Staubs
+The astronaut dropped into the surface crater...,78,V2N1N2,Staubs
