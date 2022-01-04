@@ -1,5 +1,5 @@
 #exp1 staub rep
-setwd("D:/PhD Stuff/Linguistics Stuff/Staub Replication/Codes")
+setwd("D:/PhD Stuff/Linguistics Stuff/Staub Replication/Maze Results/Staub Rep")
 library(tidyverse)
 library(stringr)
 library(urltools)
@@ -7,26 +7,30 @@ library(brms)
 library(data.table)
 
 #options (contrasts = c("contr.sum","cont.sum"))
-
 read_in_data <- function(filename){
   #reads data in generically because different format for different controllers
-  data <- read_csv(filename, comment="#", col_names=c("time", "MD5", "controller", "item", "elem",
-                                                      "type", "group", "col_8", "col_9", "col_10", "col_11", "col_12", "col_13", "col_14"), col_types=cols(
-                                                        time=col_integer(),
-                                                        MD5=col_character(),
-                                                        controller=col_character(),
-                                                        item=col_integer(),
-                                                        elem=col_integer(),
-                                                        type=col_character(),
-                                                        group=col_integer(),
-                                                        col_8=col_character(),
-                                                        col_9=col_character(),
-                                                        col_10=col_character(),
-                                                        col_11=col_character(),
-                                                        col_12=col_character(),
-                                                        col_13=col_character(),
-                                                        col_14=col_character()
-                                                      )) %>% mutate_all(url_decode) #deal with %2C issue
+  data = read.table(filename, quote="", header = FALSE, sep = ",", col.names = paste0(c("time", "MD5", "controller", "item", "elem",
+                                                                                        "type", "group", "col_7", "col_8", "col_9", 
+                                                                                        "col_10", "col_11", "col_12", "col_13", "col_14")), 
+                    fill = TRUE) %>% mutate_all(url_decode) %>% #deal with %2C issue 
+    type_convert(col_types=cols(
+      time=col_integer(),
+      MD5=col_character(),
+      type=col_character(),
+      group=col_integer(),
+      word_num=col_integer(),
+      word=col_character(),
+      distractor=col_character(),
+      on_right=col_logical(),
+      correct=col_character(),
+      rt=col_integer(),
+      sentence=col_character()
+    ))
+  
+  
+  
+  
+  
   
   order_seen <- data %>% 
     select(time, MD5, group) %>% 
@@ -36,10 +40,8 @@ read_in_data <- function(filename){
     mutate(trial_num = 1:n()) %>% 
     type_convert()
   
-  
-  #take the Maze task results, relabel and type appropriately
-  maze<- filter(data, controller=="Maze") %>% 
-    select(time, MD5, type, group, word_num=col_8, word=col_9, distractor=col_10, on_right=col_11, correct=col_12, rt=col_13, sentence=col_14) %>% 
+  maze<- filter(data, controller == "Maze") %>% 
+    select(time, MD5, type, group, word_num=col_7, word=col_8, distractor=col_9, on_right=col_10, correct=col_11, rt=col_12, sentence=col_13) %>% 
     type_convert(col_types=cols(
       time=col_integer(),
       MD5=col_character(),
@@ -57,10 +59,12 @@ read_in_data <- function(filename){
   maze
 }
 
-gulo_maze = read_in_data("results.csv") %>% 
+results = read_in_data("results.csv") %>%
   mutate(subject=paste(MD5, time),
          subject=factor(subject, levels=unique(subject), labels=1:length(unique(subject)))) %>% 
   select(-MD5, -time)
+
+gulo_maze = results
 
 length(unique(gulo_maze$subject)) ##146
 
@@ -335,14 +339,17 @@ n2_correct_plot = conditional_effects(model_correct_n2)
 
 
 plot(n1_plot, plot = FALSE)[[3]] +
+  scale_x_discrete(expand=c(0.2,0.2)) +
   coord_cartesian(ylim = c(6.65, 7)) +
   theme_bw() + 
-  theme(axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
+  theme(legend.key.size = unit(1, 'cm'), axis.text.x = element_text(color = "black", size=12), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
   labs(x = "Plausibility", y = "Log Reaction Time (Log ms)", title = "Log Reaction Time ~ Plausibility")
 
 plot(n2_plot, plot = FALSE)[[3]] +
+  scale_x_discrete(expand=c(0.2,0.2)) +
+  coord_cartesian(ylim = c(6.65, 7)) +
   theme_bw() + 
-  theme(axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
+  theme(legend.key.size = unit(1, 'cm'), axis.text.x = element_text(color = "black", size=12), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
   labs(x = "Plausibility", y = "Log Reaction Time (Log ms)", title = "Log Reaction Time ~ Plausibility")
 
 plot(n1_correct_plot, plot = FALSE)[[3]] +
