@@ -432,14 +432,15 @@ n2_long_model_plot = conditional_effects(large_n2_model)
 
 plot1 = plot(n1_predictability_plot, plot = FALSE)[[3]] +
   coord_cartesian(ylim = c(6.7, 7.1)) +
+  scale_x_discrete(expand=c(0.2,0.2)) +
   theme_bw() + 
-  theme(axis.title.x=element_blank(), axis.title.y=element_blank(),legend.position="none", axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
+  theme(legend.key.size = unit(1, 'cm'), axis.title.x=element_blank(), axis.title.y=element_blank(),legend.position="none", axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
   labs(x = "Plausibility", y = "Log Reaction Time (Log ms)")
-
 
 plot2 = plot(n2_predictability_plot, plot = FALSE)[[3]] +
   theme_bw() + 
-  theme(axis.title.x=element_blank(), axis.title.y=element_blank(), axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
+  scale_x_discrete(expand=c(0.2,0.2)) +
+  theme(axis.title.x=element_blank(), axis.title.y=element_blank(), axis.text.x = element_text(color = "black", size = 12), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
   labs(x = "Plausibility", y = "Log Reaction Time (Log ms)")
 
 plot3 = plot(n1_predictability_plot2, plot = FALSE)[[3]] +
@@ -466,12 +467,12 @@ plot(n1_plausibilityvalue2_plot, plot = FALSE)[[3]] +
 plot(n1_predictability_plot, plot = FALSE)[[3]] +
   coord_cartesian(ylim = c(6.7, 7.1)) +
   theme_bw() + 
-  theme(axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
+  theme(axis.text.x = element_text(color = "black", size = 12), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
   labs(x = "Plausibility", y = "Log Reaction Time (Log ms)", title = "Log Reaction Time ~ Plausibility")
 
 plot(n1_oddsratio_plot, plot = FALSE)[[3]] +
   theme_bw() +
-  theme(axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
+  theme(axis.text.x = element_text(color = "black", size = 12), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
   labs(x = "Log Odds Ratio", y = "Log Reaction Time (Log ms)", title = "Log Reaction Time ~ Log Odds Ratio")
 
 plot(n1_deltap_plot, plot = FALSE)[[3]] +
@@ -494,12 +495,12 @@ plot(n2_plausibilityvalue2_plot, plot = FALSE)[[3]] +
 plot(n2_predictability_plot, plot = FALSE)[[3]] +
   theme_bw() + 
   theme(axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
-  labs(x = "Plausibility", y = "Log Reaction Time (Log ms)", title = "Log Reaction Time ~ Plausibility", subtitle = "N2 Region")
+  labs(x = "Plausibility", y = "Log Reaction Time (Log ms)", title = "Log Reaction Time ~ Plausibility")
 
 plot(n2_oddsratio_plot, plot = FALSE)[[3]] +
   theme_bw() +
   theme(axis.text.x = element_text(color = "black"), axis.text.y = element_text(color = "black"), plot.title = element_text(hjust = 0.5, face="bold"), axis.title = element_text(face="bold")) +
-  labs(x = "Log Odds Ratio", y = "Log Reaction Time (Log ms)", title = "Log Reaction Time ~ Log Odds Ratio", subtitle = "N2 Region")
+  labs(x = "Log Odds Ratio", y = "Log Reaction Time (Log ms)", title = "Log Reaction Time ~ Log Odds Ratio")
 
 plot(n2_deltap_plot, plot = FALSE)[[3]] +
   theme_bw() +
