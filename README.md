@@ -1,4 +1,4 @@
-# Repository for [Insert name of paper here].
+# Repository for unpublished paper.
 
 The Google NGrams folder contains the Python scripts we used to gather predictability information for compound nouns.
 
