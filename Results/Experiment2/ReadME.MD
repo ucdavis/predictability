@@ -1,1 +1,1 @@
-The csv file is the processed data, which can be analyzed using the R script "MazeDataAnalysis." The folder named "Norming Data" contains the scripts and files necessary to reproduce our norming results.
+The csv file is the processed data, which can be analyzed using the R script "MazeDataAnalysis." The folder named "Norming Data" contains the scripts and files necessary to reproduce our norming results. The "Maze" folder contains the code for the ibex experiment.
