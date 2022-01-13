@@ -1,1 +1,1 @@
-The "Maze Data Organizing" R script is for analyzing the results file, which is also included as a zip file here. The "Data For Analysis" file is the processed results.
+The "Maze Data Organizing" R script is for analyzing the results file, which is also included as a zip file here. The "Data For Analysis" file is the processed results. The "Maze" folder contains the code for the ibex experiment.
