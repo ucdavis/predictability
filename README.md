@@ -8,5 +8,11 @@ If you use any of the scripts here, please cite our paper along with the google 
 
 Michel, J.-B., Shen, Y. K., Aiden, A. P., Veres, A., Gray, M. K., The Google Books Team, Pickett, J. P., Hoiberg, D., Clancy, D., Norvig, P., Orwant, J., Pinker, S., Nowak, M. A., and Aiden, E. L. (2011). Quantitative analysis of culture using millions of digitized books. *Science*, 331(6014):176–182.
 
+Also, if you use the Maze task paradigm with the Gulordava model, please cite the two papers below:
+
+A-maze paper: V. Boyce, R. Futrell, R. P. Levy. 2020. Maze Made Easy: Better and easier measurement of incremental processing difficulty. *Journal of Memory and Language.*
+
+Gulordava Model: K. Gulordava, P. Bojanowski, E. Grave, T. Linzen, M. Baroni. 2018. Colorless green recurrent networks dream hierarchically. *Proceedings of NAACL.*
+
 
 
