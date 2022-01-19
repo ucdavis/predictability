@@ -11,7 +11,7 @@
 
 if __name__ == '__main__':
 
-    from zs import ZS
+    from zs import ZS #import zs library and some other useful packages
     import math
     import csv
     import json  
@@ -99,7 +99,7 @@ if __name__ == '__main__':
                             bigram_memory[(word1, word2)] = (old_output2 + int(output[2]), old_output3 + int(output[3]), word1POS, word2POS, old_one_gram2, old_one_gram3, old_n2_count2, old_n2_count3)
                         
                             
-                        else: #if first word in the bigram is not in our memory, check to see if it's in the 1gram memory, if not print a warning and continue.
+                        else: #if first word in the bigram is not in our memory, check to see if it's in the 1gram memory, if not print a warning and continue. This should, in theory, not happen since the bigram corpus and onegram corpus share the same sources, but in practice sometimes shit happens.
                             if word1 not in onegram_memory:
 
                                 print("Warning, " + word1 + " Not in Onegram Corpus!")
@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
                 for word1, word2 in bigram_memory:
                     
-                    bigram_match, bigram_volume, word1POS, word2POS, N1_match, N1_volume, N2_match, N2_volume = bigram_memory[(word1, word2)]
+                    bigram_match, bigram_volume, word1POS, word2POS, N1_match, N1_volume, N2_match, N2_volume = bigram_memory[(word1, word2)] #gather numbers for calculations from the dictionary we made
                     
                     if N1_match != 0 and bigram_match != 0 and N1_match - bigram_match != 0:
                         odds_ratio_match = (bigram_match) / (N1_match - bigram_match) #odds ratio calculations for match count
@@ -148,5 +148,5 @@ if __name__ == '__main__':
                             oddsratio_deltap_difference_volume = abs(odds_ratio_volume - deltap_volume)
                         else: oddsratio_deltap_difference_volume = "NA"
                     else: oddsratio_deltap_difference_volume = "NA"
-
+                    #write data into csv
                     bigram_writer.writerow([word1, word2, word1POS, word2POS, N1_match, N1_volume, N2_match, N2_volume, bigram_match, bigram_volume, odds_ratio_match, odds_ratio_volume, deltap_match, deltap_volume, oddsratio_deltap_difference_match, oddsratio_deltap_difference_volume, corpus_size])
