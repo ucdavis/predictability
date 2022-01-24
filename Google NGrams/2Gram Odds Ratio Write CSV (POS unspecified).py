@@ -8,7 +8,7 @@
 
 if __name__ == '__main__':
 
-    from zs import ZS
+    from zs import ZS #file compression
     import math
     import csv
 
@@ -28,7 +28,7 @@ if __name__ == '__main__':
         year = one_gram_output[1]
                     
 
-        if i % 10000000 == 0: #for debugging purposes
+        if i % 10000000 == 0: #for debugging purposes, can keep track of the progress and examine anywhere it seems to get stuck
             print(one_gram_string)
             print(word)
 
